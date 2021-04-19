@@ -1,0 +1,64 @@
+html, body {
+    background-color: mintcream;
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 440px;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+p.indent {
+    text-indent: 30px;
+}
+
+.banner {
+    background-image: url(images/January.jpg);
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.thing {
+    display: flex;
+    justify-content: center;
+}
+
+.thing img {
+    height: 600px;
+    margin-left: 15px;
+    border: 1px solid black;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding-right: 60px;
+    padding-left: 70px;
+    margin-left: 15px;
+}
+
+.footer {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.footer img {
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
